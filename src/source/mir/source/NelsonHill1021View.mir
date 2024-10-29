@@ -1,0 +1,101 @@
+[ @file = "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\NelsonHill1021View.mc"; @line = 1; ]
+import Toybox.Activity;
+[ @file = "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\NelsonHill1021View.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\NelsonHill1021View.mc"; @line = 3; ]
+import Toybox.Time;
+[ @file = "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\NelsonHill1021View.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\NelsonHill1021View.mc"; @line = 6; ]
+class NelsonHill1021View extends WatchUi.SimpleDataField{
+    [ @file = "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\NelsonHill1021View.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\NelsonHill1021View.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\NelsonHill1021View.mc"; @line = 9; ]
+    function initialize() as Void {
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_9_26_12_4_start:
+[ "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\NelsonHill1021View.mc" 10 8 ]
+        %tmp.2 = getv ? :SimpleDataField;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\NelsonHill1021View.mc" 11 8 ]
+        %tmp.4 = "Nelsons Climbed: ";
+        putv self :label %tmp.4;
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_9_26_12_4_stop:
+    }
+    [ @file = "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\NelsonHill1021View.mc"; @line = 18; ]
+    function compute(info as Activity.Info) as Numeric or Duration or String or Null {
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_18_85_31_4_start:
+[ "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\NelsonHill1021View.mc" 20 8 ]
+        [ "C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_18_85_31_4_start" "C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_18_85_31_4_stop" ]
+        %value.1 = local;
+        %tmp.1 = "--";
+        lputv %value.1 %tmp.1;
+[ "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\NelsonHill1021View.mc" 21 8 ]
+        [ "C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_18_85_31_4_start" "C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_18_85_31_4_stop" ]
+        %elevation.2 = local;
+        %tmp.2 = lgetv %info;
+        %tmp.3 = getv %tmp.2 :totalAscent;
+        lputv %elevation.2 %tmp.3;
+[ "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\NelsonHill1021View.mc" 22 8 ]
+        try @C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_22_8_29_8_beginTry @C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_22_8_29_8_endTry @C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_22_8_29_8_catch @C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_22_8_29_8_finally;
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_22_8_29_8_beginTry:
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_22_11_26_8_start:
+[ "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\NelsonHill1021View.mc" 23 8 ]
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_23_8_25_8_if_stmt:
+        %tmp.5 = lgetv %elevation.2;
+        %tmp.6 = 0;
+        %tmp.7 = gt %tmp.5 %tmp.6;
+        bf %tmp.7 @C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_23_8_25_8_if_end;
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_23_8_25_8_if_true:
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_23_26_25_8_start:
+[ "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\NelsonHill1021View.mc" 24 12 ]
+        %tmp.9 = lgetv %elevation.2;
+        %tmp.10 = 3.208;
+        %tmp.11 = mul %tmp.9 %tmp.10;
+        %tmp.12 = 250;
+        %tmp.13 = div %tmp.11 %tmp.12;
+        lputv %value.1 %tmp.13;
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_23_26_25_8_stop:
+        goto @C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_23_8_25_8_if_end;
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_23_8_25_8_if_end:
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_22_11_26_8_stop:
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_22_8_29_8_endTry:
+        jsr @C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_22_8_29_8_finally;
+        goto @C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_22_8_29_8_end;
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_22_8_29_8_catch:
+        %tmp.14 = exception;
+        push %tmp.14;
+[ "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\NelsonHill1021View.mc" 27 8 ]
+        [ "C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_22_8_29_8_catch" "C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_27_8_29_8_end" ]
+        %UnexpectedTypeException.3 = local;
+        %tmp.15 = dup %tmp.14;
+        lputv %UnexpectedTypeException.3 %tmp.15;
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_27_38_29_8_start:
+[ "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\NelsonHill1021View.mc" 28 12 ]
+        %tmp.16 = "--";
+        lputv %value.1 %tmp.16;
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_27_38_29_8_stop:
+        jsr @C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_22_8_29_8_finally;
+        pop;
+        goto @C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_22_8_29_8_end;
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_27_8_29_8_end:
+        try @C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_22_8_29_8_catch @C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_27_8_29_8_end @C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_27_8_29_8_end @C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_22_8_29_8_finally;
+        jsr @C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_22_8_29_8_finally;
+        throw %tmp.14;
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_22_8_29_8_finally:
+        jsrret;
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_22_8_29_8_end:
+[ "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\NelsonHill1021View.mc" 30 8 ]
+        %tmp.18 = lgetv %value.1;
+        ret %tmp.18;
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_NelsonHill1021View_mc_18_85_31_4_stop:
+    }
+}
+[ @file = "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\NelsonHill1021View.mc"; @line = 1; ]
+<init> {
+}

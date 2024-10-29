@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021App.mc" id="1" lineNum="5" parent="globals/NelsonHill1021App" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021App.mc" id="2" lineNum="26" parent="globals" pc="268435479" symbol="getApp"/>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021App.mc" id="2" lineNum="27" parent="globals" pc="268435489" symbol="getApp"/>
+        <entry filename="c:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\gen\\006-B3077-00\\source\\Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021View.mc" id="4" lineNum="6" parent="globals/NelsonHill1021View" pc="268435529" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021App.mc" id="5" lineNum="12" parent="globals/NelsonHill1021App" pc="268435548" symbol="onStart"/>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021App.mc" id="6" lineNum="20" parent="globals/NelsonHill1021App" pc="268435551" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021App.mc" id="6" lineNum="21" parent="globals/NelsonHill1021App" pc="268435553" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021App.mc" id="7" lineNum="7" parent="globals/NelsonHill1021App" pc="268435594" symbol="initialize"/>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021App.mc" id="7" lineNum="8" parent="globals/NelsonHill1021App" pc="268435596" symbol="initialize"/>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021App.mc" id="8" lineNum="16" parent="globals/NelsonHill1021App" pc="268435615" symbol="onStop"/>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021View.mc" id="9" lineNum="18" parent="globals/NelsonHill1021View" pc="268435618" symbol="compute"/>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021View.mc" id="9" lineNum="20" parent="globals/NelsonHill1021View" pc="268435622" symbol="compute"/>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021View.mc" id="9" lineNum="21" parent="globals/NelsonHill1021View" pc="268435629" symbol="compute"/>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021View.mc" id="9" lineNum="23" parent="globals/NelsonHill1021View" pc="268435639" symbol="compute"/>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021View.mc" id="9" lineNum="24" parent="globals/NelsonHill1021View" pc="268435650" symbol="compute"/>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021View.mc" id="9" lineNum="27" parent="globals/NelsonHill1021View" pc="268435675" symbol="compute"/>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021View.mc" id="9" lineNum="28" parent="globals/NelsonHill1021View" pc="268435679" symbol="compute"/>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021View.mc" id="9" lineNum="30" parent="globals/NelsonHill1021View" pc="268435698" symbol="compute"/>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021View.mc" id="10" lineNum="9" parent="globals/NelsonHill1021View" pc="268435701" symbol="initialize"/>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021View.mc" id="10" lineNum="10" parent="globals/NelsonHill1021View" pc="268435703" symbol="initialize"/>
+        <entry filename="C:\\Users\\kdace\\Documents\\Fall 24\\Projects\\Garmin\\NelsonProject\\NelsonHill1021\\source\\NelsonHill1021View.mc" id="10" lineNum="11" parent="globals/NelsonHill1021View" pc="268435721" symbol="initialize"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="5" object="true" symbol="NelsonHill1021App"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="8" symbol="AppName"/>
+        <entry id="4" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="8389137" method="true" symbol="compute"/>
+        <entry id="6" object="true" symbol="NelsonHill1021View"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="7" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435700" name="info" stackId="1" startPc="268435618"/>
+        <entry endPc="268435700" name="value" stackId="2" startPc="268435622"/>
+        <entry endPc="268435700" name="elevation" stackId="3" startPc="268435622"/>
+        <entry endPc="268435692" name="UnexpectedTypeException" stackId="4" startPc="268435675"/>
+    </localVars>
+    <deviceInfo partNumber="006-B3077-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="55" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/NelsonHill1021App" offset="126" parentId="globals" symbolId="NelsonHill1021App" type="class"/>
+        <dataEntry label="globals/Rez" offset="197" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/NelsonHill1021View" offset="244" parentId="globals" symbolId="NelsonHill1021View" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="299" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="338" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="NelsonHill1021App" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435504" name="getApp" startPc="268435479">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435528" name="&lt;init&gt;" parent="Rez" startPc="268435505">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435547" name="&lt;init&gt;" parent="NelsonHill1021View" startPc="268435529">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435550" name="onStart" parent="NelsonHill1021App" startPc="268435548">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435593" name="getInitialView" parent="NelsonHill1021App" startPc="268435551">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435614" name="initialize" parent="NelsonHill1021App" startPc="268435594">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435617" name="onStop" parent="NelsonHill1021App" startPc="268435615">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435700" name="compute" parent="NelsonHill1021View" startPc="268435618">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435734" name="initialize" parent="NelsonHill1021View" startPc="268435701">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

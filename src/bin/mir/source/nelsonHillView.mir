@@ -1,0 +1,46 @@
+[ @file = "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\nelsonHillView.mc"; @line = 1; ]
+import Toybox.Activity;
+[ @file = "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\nelsonHillView.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\nelsonHillView.mc"; @line = 3; ]
+import Toybox.Time;
+[ @file = "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\nelsonHillView.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\nelsonHillView.mc"; @line = 6; ]
+class nelsonHillView extends WatchUi.SimpleDataField{
+    [ @file = "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\nelsonHillView.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\nelsonHillView.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\nelsonHillView.mc"; @line = 9; ]
+    function initialize() as Void {
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_nelsonHillView_mc_9_26_13_4_start:
+[ "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\nelsonHillView.mc" 10 8 ]
+        %tmp.2 = getv ? :SimpleDataField;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\nelsonHillView.mc" 11 8 ]
+        %tmp.4 = "Total Nelsons Summited";
+        putv self :label %tmp.4;
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_nelsonHillView_mc_9_26_13_4_stop:
+    }
+    [ @file = "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\nelsonHillView.mc"; @line = 19; ]
+    function compute(info as Activity.Info) as Numeric or Duration or String or Null {
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_nelsonHillView_mc_19_85_22_4_start:
+[ "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\nelsonHillView.mc" 21 8 ]
+        %tmp.1 = lgetv %info;
+        %tmp.2 = getv %tmp.1 :elevationAtDestination;
+        %tmp.3 = 3.208;
+        %tmp.4 = mul %tmp.2 %tmp.3;
+        %tmp.5 = 250;
+        %tmp.6 = div %tmp.4 %tmp.5;
+        ret %tmp.6;
+C_Users_kdace_Documents_Fall_24_Projects_Garmin_NelsonProject_NelsonHill1021_source_nelsonHillView_mc_19_85_22_4_stop:
+    }
+}
+[ @file = "C:\Users\kdace\Documents\Fall 24\Projects\Garmin\NelsonProject\NelsonHill1021\source\nelsonHillView.mc"; @line = 1; ]
+<init> {
+}
